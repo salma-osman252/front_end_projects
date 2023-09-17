@@ -1,0 +1,115 @@
+#toggale {
+  color: #fff;
+}
+#humbger {
+  font-size: 4em;
+  word-wrap: break-word;
+}
+#icon {
+  font-size: 18px;
+  background-color: white;
+}
+#icon:hover {
+  background-color: orangered;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+}
+.icon {
+  color: orangered;
+}
+#img {
+  position: relative;
+}
+#icon_abso {
+  background-color: #fff;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 18px;
+}
+#icon_abso:hover {
+  background-color: orangered;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+#links_hovr:hover {
+  background-color: orangered;
+  border-radius: 20px;
+}
+
+#menu_bttons {
+  background-color: black;
+}
+#menu_bttons:hover {
+  background-color: orangered;
+  width: 140px;
+}
+
+#about_button {
+  background-color: black;
+}
+
+#about_button:hover {
+  background-color: orangered;
+  width: 183px;
+}
+
+#center_part a {
+  padding-left: 20px;
+}
+#center_part a {
+  padding-right: 20px;
+}
+.image {
+  width: 4rem;
+}
+
+#c-body {
+  margin-top: -43px;
+}
+.small_text {
+  font-size: 10px;
+}
+
+.img {
+  height: 5rem;
+  width: 5rem;
+  object-fit: cover;
+}
+
+.quote {
+  margin-top: -35px;
+  font-size: 60px;
+  color: #b6b4b4;
+}
+
+.box_shadoww {
+  box-shadow: 0px 0px 8px rgb(205, 201, 201);
+}
+
+.footer ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.footer ul li a:hover {
+  text-decoration: underline;
+  color: orangered;
+  font-size: 20px;
+}
+
+#txtwhite {
+  color: #fff;
+}
+
+.footer a {
+  opacity: 0.5;
+}
+
+.footer ul li {
+  list-style: none;
+}

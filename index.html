@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>safari restuarent</title>
+
+    <!-- importation css -->
+    <link rel="stylesheet" href="./css/style.css">
+
+
+    <!-- bootsrap link -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
@@ -29,142 +35,11 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-   
-
-    <!-- internal style -->
-    <style>
-      #toggale {
-        color: #fff;
-      }
-      #humbger {
-        font-size: 4em;
-        word-wrap: break-word;
-      }
-      #icon {
-        font-size: 18px;
-        background-color: white;
-      }
-      #icon:hover{
-        background-color: orangered;
-        color: #fff;
-        cursor: pointer;
-        font-size: 20px;
-      }
-      .icon {
-        color: orangered;
-      }
-      #img {
-        position: relative;
-      }
-      #icon_abso {
-        background-color: #fff;
-        position: absolute;
-        top: 10px;
-        right: 10px;
-        font-size: 18px;
-      }
-      #icon_abso:hover{
-        background-color: orangered;
-        color: #fff;
-        cursor: pointer;
-        font-size: 20px;
-        
-      }
-
-      #links_hovr:hover{
-        background-color: orangered;
-        border-radius: 20px;
-      }
-
-      #menu_bttons{
-        background-color: black;
-      }
-      #menu_bttons:hover{
-        background-color: orangered;
-        width: 140px;
-      }
-
-      #about_button{
-        background-color: black;
-      }
-
-      #about_button:hover{
-        background-color: orangered;
-       width: 183px;
-      }
-      
-      
-      #center_part a{
-        padding-left: 20px;
-      }
-      #center_part a{
-        padding-right: 20px;
-      }
-    .img{
-      width: 4rem;
-    }
-      .footer ul li a {
-            text-decoration: none;
-            color: white;
-            font-size: 20px;
-
-        }
-
-        .footer ul li a:hover {
-            text-decoration: underline;
-            color: orangered;
-            font-size: 20px;
-
-        }
-
-        #txtwhite{
-          color:#fff;
-        }
-
-        .footer a{
-          opacity: 0.5;
-        }
-
-        .footer ul li {
-            list-style: none;
-        }
-      
-    
-    #c-body{
-      
-      margin-top: -43px;
-    }
-    .small_text{
-      font-size: 10px;
-    }
-
-    .img {
-            height: 5rem;
-            width: 5rem;
-            object-fit: cover;
-    }
-
-    .quote {
-            margin-top: -35px;
-            font-size: 60px;
-            color: #b6b4b4;
-    }
-
-    .box_shadoww{
-       box-shadow: 0px 0px 8px rgb(205, 201, 201);
-    }
-    .text_areaa{
-      border-radius: 45px;
-    }
-    .bottonn :hover{
-      
-            background-color: rgb(225, 103, 9);
-            box-shadow: 0px 0px 8px rgb(210, 209, 209);
-            border: 0;
-
-        }
-    
-    </style>
+ <style>
+  html {
+  overflow-x: hidden;
+}
+ </style>
   </head>
   <body>
     <!-- navbar -->
@@ -246,11 +121,12 @@
 
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
+
+            <!-- box 1 -->
+
             <div class="carousel-item active">
                 <div class="row justify-content-center align-items-center">
-
           <!-- text part home -->
-
           <div class="col-lg-6 text-center text-lg-start">
             <p class="fs-4" style="color: orangered">Our special fastfood</p>
             <h1 id="humbger">Humbuger</h1>
@@ -267,18 +143,21 @@
           <!-- end text part -->
 
           <!-- img part home -->
-
           <div class="col-lg-6">
             <img class="img-fluid" src="./img/home1.jpg" alt="" />
           </div>
           <!-- end img part -->
         </div>
             </div>
+
+
+
+            <!-- box 2 -->
+
             <div class="carousel-item">
               <div class="row justify-content-center align-items-center">
 
                 <!-- text part home -->
-      
                 <div class="col-lg-6 text-center text-lg-start">
                   <p class="fs-4" style="color: orangered">Our special Chicken</p>
                   <h1 id="humbger">Fried Chicken</h1>
@@ -295,18 +174,19 @@
                 <!-- end text part -->
       
                 <!-- img part home -->
-      
                 <div class="col-lg-6">
-                  <img class="img-fluid" src="./img/home2.jpg" alt="" />
+                  <img class="img-fluid" src="./img/home3.jpg" alt="" />
                 </div>
                 <!-- end img part -->
               </div>
             </div>
+
+
+            <!-- box 3 -->
+
             <div class="carousel-item">
               <div class="row justify-content-center align-items-center">
-
                 <!-- text part home -->
-      
                 <div class="col-lg-6 text-center text-lg-start">
                   <p class="fs-4" style="color: orangered">Our special Pizza</p>
                   <h1 id="humbger">Hot pizza</h1>
@@ -323,9 +203,8 @@
                 <!-- end text part -->
       
                 <!-- img part home -->
-      
                 <div class="col-lg-6">
-                  <img class="img-fluid" src="./img/home3.jpg" alt="" />
+                  <img class="img-fluid" src="./img/home2.jpg" alt="" />
                 </div>
                 <!-- end img part -->
               </div>
@@ -1144,22 +1023,19 @@
         </div>
 
        <div class="border rounded px-2 px-md-4 px-lg-5 pb-5">
-        <div class="row justify-content-center align-items-center gx-5 px-2 px-md-3 px-lg-4 pb-5">
+        <form action="">
+        <div class="row justify-content-center  gx-5 px-2 px-md-3 px-lg-4 pb-5">
 
           <!-- col 1  -->
-
           <div class="col-12 col-md-6 ">
-           <form action="">
-
+        
             <!-- input your name -->
-
             <div class="mt-4 mb-4">
               <p for="exampleInputPassword1" class="form-label text-muted">Full Name</p>
               <input type="text" class="form-control rounded-pill p-3 box_shadoww" placeholder="Enter Your Name" id="exampleInputPassword1">
             </div>
 
             <!-- select your order -->
-
             <div class="mb-4">
               <p for="exampleInputPassword1" class="form-label text-muted">Your Order</p>
               <select class="form-select rounded-pill p-3 box_shadoww" aria-label="Default select example">
@@ -1178,7 +1054,6 @@
             </div>
             
             <!-- how many orders you want -->
-
             <div class="mb-4">
               <p for="exampleInputPassword1" class="form-label text-muted">How Many Much</p>
               <input type="text" class="form-control rounded-pill p-3 box_shadoww" placeholder="How Many Orders" id="exampleInputPassword1">
@@ -1186,33 +1061,28 @@
 
             <!-- text area -->
             <div class="mb-4">
-            <p for="exampleInputPassword1" class="form-label text-muted">Your Adress</p>
-            <input type="text" class="form-control  p-3 box_shadoww text_areaa" placeholder=" Enter Your Adress" id="exampleInputPassword1" style="height: 250px;">
+          <p for="exampleFormControlTextarea1" class="form-label text-muted">Your Adress</p>
+          <textarea class="form-control box_shadoww text_areaaa" id="exampleFormControlTextarea1" cols="70" rows="10" placeholder=" Enter Your Adress" style="resize: none; border: none; border-radius: 45px; ">
+          </textarea>
             </div>
            
-           </form>
+           
           </div>
 
           <!-- col 2 -->
 
-          <div class="col-12 col-md-6">
-            
-            <form action="">
-
+          <div class="col-12 col-md-6 mt-4">
               <!-- input your number-->
-  
               <div class="mb-4">
                 <label for="exampleInputPassword1" class="form-label text-muted">YUR Number</label>
                 <input type="text" class="form-control rounded-pill p-3 box_shadoww" placeholder="Enter YourNumber" id="exampleInputPassword1">
               </div>
   
               <!-- enter your emaile -->
-  
               <div class="mb-4">
                 <label for="exampleInputPassword1" class="form-label text-muted">Your Email</label>
                 <input type="email" class="form-control rounded-pill p-3 box_shadoww" placeholder="Enter Your Email" id="exampleInputPassword1">
               </div>
-
 
               <!-- date and time -->
               <div class="mb-4">
@@ -1221,21 +1091,23 @@
               </div>
               
               <!-- payment -->
-  
               <div class="mb-4 ">
                 <label for="exampleInputPassword1" class="form-label text-muted">payment</label>
                 <input type="text" class="form-control rounded-pill p-3 box_shadoww" placeholder="Enter Your Moneys" id="exampleInputPassword1">
               </div>
               
-              <!-- botton -->
-              <div class="text-center bottonn">
-                <button type="submit" class="btn btn-dark btn-lg rounded-pill px-4 "
-                    style="margin-top: 120px;">Order Now</button>
-            </div>
-        
-          </form>
+            
+        </div>
+
+          <!-- botton -->
+          <div class="text-center mt-4">
+            
+            <button class="btn px-4 py-3 rounded-pill btn text-white"  id="menu_bttons">
+            Order Now
+            </button>
         </div>
        </div>
+      </form>
      </div>
    </div>
  </section>
@@ -1247,7 +1119,7 @@
 
   <section class="footer py-5" style="background-color: rgb(7, 7, 7);">
     <div class="container-lg">
-        <div class="row justify-content-center align-items-center g-5 ">
+        <div class="row justify-content-center  g-5 ">
             <div class="col-md-3 ">
                
                 <ul class="pb-3">
@@ -1298,17 +1170,6 @@
         </div>
     </div>
 </section>
-
-
-
-
-
-
-
-
-
-
-
 
 
    <!-- end -->
