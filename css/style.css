@@ -1,3 +1,7 @@
+html {
+  overflow-x: hidden;
+}
+
 #toggale {
   color: #fff;
 }
@@ -112,4 +116,116 @@
 
 .footer ul li {
   list-style: none;
+}
+
+.one {
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+.two {
+  -webkit-animation-delay: 1.7s;
+  -moz-animation-delay: 1.7s;
+  animation-delay: 1.7s;
+}
+
+.three {
+  -webkit-animation-delay: 2.4s;
+  -moz-animation-delay: 2.4s;
+  animation-delay: 2.4s;
+}
+
+.four {
+  -webkit-animation-delay: 3.1s;
+  -moz-animation-delay: 3.1s;
+  animation-delay: 3.1s;
+}
+
+.five {
+  -webkit-animation-delay: 3.8s;
+  -moz-animation-delay: 3.8s;
+  animation-delay: 3.8s;
+}
+
+.six {
+  -webkit-animation-delay: 4.5s;
+  -moz-animation-delay: 4.5s;
+  animation-delay: 4.5s;
+}
+
+.seven {
+  -webkit-animation-delay: 5.2s;
+  -moz-animation-delay: 5.2s;
+  animation-delay: 5.2s;
+}
+
+.eight {
+  -webkit-animation-delay: 5.9s;
+  -moz-animation-delay: 5.9s;
+  animation-delay: 5.9s;
+}
+
+.nine {
+  -webkit-animation-delay: 6.6s;
+  -moz-animation-delay: 6.6s;
+  animation-delay: 6.6s;
+}
+
+.ten {
+  -webkit-animation-delay: 7.3s;
+  -moz-animation-delay: 7.3s;
+  animation-delay: 7.3s;
+}
+
+.eleven {
+  -webkit-animation-delay: 8s;
+  -moz-animation-delay: 8s;
+  animation-delay: 8s;
+}
+
+.twelve {
+  -webkit-animation-delay: 8.7s;
+  -moz-animation-delay: 8.7s;
+  animation-delay: 8.7s;
+}
+
+.animate {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+    -webkit-transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+    -webkit-transform: none;
+  }
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+    -webkit-transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+    -webkit-transform: none;
+  }
+}
+
+.fadeUp {
+  animation-name: fadeUp;
+  -webkit-animation-name: fadeUp;
 }
