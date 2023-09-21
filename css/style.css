@@ -79,8 +79,9 @@ html {
 }
 
 .img {
-  height: 5rem;
-  width: 5rem;
+  height: auto;
+  max-width: 5rem;
+  border-radius: 50%;
   object-fit: cover;
 }
 
